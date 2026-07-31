@@ -19,6 +19,7 @@ function closeLightbox() {
 document.querySelectorAll('.media-grid img, .media-grid video').forEach(el => {
   el.addEventListener('click', () => {
     const clone = el.cloneNode(true);
+    clone.className = '';
     if (clone.tagName === 'VIDEO') {
       clone.controls = true;
       clone.autoplay = true;
