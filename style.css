@@ -306,3 +306,13 @@ footer span { color: var(--accent); }
   nav ul { display: none; }
   .btn-ghost { margin-left: 0; margin-top: 10px; }
 }
+
+.project-link {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  margin-top: 4px;
+}
+
+.project-link:hover { text-decoration: underline; }
