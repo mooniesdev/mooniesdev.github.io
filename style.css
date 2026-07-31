@@ -346,3 +346,33 @@ footer span { color: var(--accent); }
   grid-column: 1 / -1;
   height: 200px;
 }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  cursor: zoom-out;
+}
+
+.lightbox.open { display: flex; }
+
+.lightbox img,
+.lightbox video {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 10px;
+}
+
+.media-grid img,
+.media-grid video {
+  cursor: zoom-in;
+  transition: opacity 0.2s;
+}
+
+.media-grid img:hover,
+.media-grid video:hover { opacity: 0.75; }
