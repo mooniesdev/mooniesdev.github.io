@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moonies — Maker & Développeur</title>
+  <meta name="description" content="Portfolio de mooniesdev : projets électroniques Arduino/ESP32 faits main, du code C++ à la fabrication.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">moonies.dev</a>
+      <ul>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="container">
+    <p class="terminal-line">arduino-cli compile --upload creativite.ino<span class="cursor"></span></p>
+    <h1>Je fabrique des objets<br>qui ont du <span class="highlight">cœur</span>.</h1>
+    <p class="subtitle">Étudiant en licence informatique et maker passionné, je conçois des objets connectés faits main — du code C++ jusqu'à la boîte, en passant par le fer à souder.</p>
+    <div class="tags">
+      <span class="tag">C / C++</span>
+      <span class="tag">Arduino</span>
+      <span class="tag">ESP32</span>
+      <span class="tag">RFID</span>
+      <span class="tag">HTML / CSS</span>
+    </div>
+    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+    <a href="#contact" class="btn btn-ghost">Me contacter</a>
+  </header>
+
+  <section id="projets" class="container">
+    <p class="section-title">projets</p>
+    <h2>Fabriqués à la main, codés avec passion</h2>
+    <div class="projects-grid">
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">💬</div>
+          <span class="status status-done">terminé</span>
+        </div>
+        <h3>Boîte à messages motivants</h3>
+        <p>Une boîte avec écran intégré et un bouton, offerte en cadeau. Chaque appui affiche un nouveau message d'encouragement — un objet simple qui accompagne quelqu'un au quotidien.</p>
+        <div class="project-media">[ photo / vidéo à venir ]</div>
+        <div class="tech-list">
+          <span class="tech">C++</span>
+          <span class="tech">Écran OLED</span>
+          <span class="tech">Bouton poussoir</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">🎵</div>
+          <span class="status status-done">terminé</span>
+        </div>
+        <h3>Boîte à musique vinyle RFID</h3>
+        <p>Des mini-vinyles fabriqués à la main, chacun équipé d'un tag RFID. On pose le vinyle sur la boîte, le lecteur caché le détecte et lance la musique associée sur l'ampli intégré.</p>
+        <div class="project-media">[ photo / vidéo à venir ]</div>
+        <div class="tech-list">
+  <span class="tech">C++</span>
+  <span class="tech">RFID MFRC522</span>
+  <span class="tech">DFPlayer Mini</span>
+  <span class="tech">Fait main</span>
+</div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">📖</div>
+          <span class="status status-done">terminé</span>
+        </div>
+        <h3>Boîte souvenir interactive</h3>
+        <p>Un écran, trois boutons, trois expériences : une histoire à faire défiler page par page, des messages personnalisés, et un message secret accessible uniquement via une combinaison cachée des trois boutons.</p>
+        <div class="project-media">[ photo / vidéo à venir ]</div>
+        <div class="tech-list">
+  <span class="tech">C++</span>
+  <span class="tech">ESP32</span>
+  <span class="tech">Écran TFT</span>
+  <span class="tech">Carte SD + BMP</span>
+  <span class="tech">Machine à états</span>
+</div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div class="project-icon">❤️</div>
+          <span class="status status-wip">en cours</span>
+        </div>
+        <h3>Lovebox connectée (DIY)</h3>
+        <p>Deux boîtes qui communiquent à distance : envoi de messages via un bot, écran tactile pour répondre « je pense à toi », et un cœur motorisé qui tourne avec vibration à chaque notification reçue.</p>
+        <div class="project-media">[ photo / vidéo à venir ]</div>
+        <div class="tech-list">
+          <span class="tech">ESP32</span>
+          <span class="tech">WiFi</span>
+          <span class="tech">Écran tactile</span>
+          <span class="tech">Servo + vibreur</span>
+          <span class="tech">Bot</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="apropos" class="container">
+    <p class="section-title">à propos</p>
+    <h2>Qui suis-je ?</h2>
+    <div class="about-box reveal">
+      <p><strong>Grand passionné de technologie</strong>, je n'hésite pas à mettre ma créativité en jeu : chaque projet part d'une idée pour quelqu'un, et je le construis de A à Z — le code, l'électronique, et la boîte elle-même.</p>
+      <p>Actuellement en 2e année de licence informatique, j'apprends le C, le HTML et le CSS en cours, et j'explore le C++ et l'électronique embarquée sur mon temps libre avec Arduino et ESP32.</p>
+      <p>Mon objectif : faire de cette passion mon métier, dans le développement web ou logiciel.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <p class="section-title">contact</p>
+    <div class="contact-box reveal">
+      <h2>Un projet en tête ?</h2>
+      <p>N'hésitez pas à me contacter pour échanger, ou à jeter un œil à mon code sur GitHub.</p>
+      <a href="mailto:ton.email@exemple.com" class="btn btn-primary">M'écrire</a>
+      <a href="https://github.com/ton-pseudo" class="btn btn-ghost">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">Conçu et codé par <span>Moonies</span> — 2026</div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
