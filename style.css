@@ -310,12 +310,16 @@ footer span { color: var(--accent); }
 .project-link {
   font-family: var(--font-mono);
   font-size: 13px;
-  color: var(--accent);
+  color: #a78bfa;
   text-decoration: none;
   margin-top: 4px;
+  transition: color 0.2s;
 }
 
-.project-link:hover { text-decoration: underline; }
+.project-link:hover {
+  color: #c4b5fd;
+  text-decoration: underline;
+}
 
 .media-grid {
   display: grid;
